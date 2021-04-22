@@ -1,0 +1,28 @@
+header label{
+    float: right;
+    padding-top: 25px;
+    
+    
+    
+}
+
+.menu{
+    position: absolute;
+    bottom: 17px;
+    left: 70%;
+    display: flex;
+    word-spacing: 10px;
+}
+
+.menu a{
+    color: black;
+    text-decoration: none;
+    padding-right: 5px;
+    
+}
+
+.menu h6{
+    color: black;
+    padding-right: 10px;
+    word-spacing: 10px;
+}
