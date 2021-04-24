@@ -1,28 +1,72 @@
 header label{
     float: right;
-    padding-top: 25px;
-    
-    
+    padding-top: 10px;
+    /*font-size: ; -- dar tamaño al icono*/
+    margin: 6px 0px;
+    cursor: pointer;
     
 }
 
 .menu{
     position: absolute;
-    bottom: 17px;
-    left: 70%;
-    display: flex;
-    word-spacing: 10px;
+    top: 70px;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background: rgb(187, 182, 182);
+    transform:  translateX(-150%);
+    transition: 1.5s;
 }
 
 .menu a{
     color: black;
     text-decoration: none;
-    padding-right: 5px;
-    
+    display: block;
+    height: 30px;
+    padding: 10px;
+    border-bottom: solid 1px white;
 }
 
-.menu h6{
-    color: black;
-    padding-right: 10px;
-    word-spacing: 10px;
+.menu a:hover{
+    background:rgba(112, 109, 109, 0.9);
+    transition: 0.5s;
+}
+
+#menu-bar:checked~.menu{
+    transform: translateX(0);
+}
+
+#menu-bar{
+    display: none;
+}
+
+@media(min-width:1024px){
+    .menu{
+        position: static;
+        width: auto;
+        height: 25px;
+        float: right;
+        display: flex;
+        top: 10px;
+        
+        
+        
+        background: white;
+        transform: translateX(0%);  
+        transition: none; 
+    }
+    .menu a:hover{
+        background: none;
+    
+    }
+
+    header label{
+        display: none;
+    }
+
+    .menu a{
+        border-bottom: black;
+    }
+
+
 }
