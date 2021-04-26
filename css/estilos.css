@@ -8,10 +8,9 @@
 
 header{
     width: 80%;
-    height: 10px;
+    height: 60px;
     margin-right: 10px;
     position: relative;
-    position: absolute;
     border-bottom: solid 1px black;
     padding-bottom: 30px;
     padding-left: 10px;
