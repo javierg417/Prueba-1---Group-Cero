@@ -25,6 +25,7 @@ header label{
     height: 30px;
     padding: 10px;
     border-bottom: solid 1px white;
+    font-size: small;
 }
 
 .menu a:hover{
