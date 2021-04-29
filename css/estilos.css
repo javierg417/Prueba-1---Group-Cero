@@ -1,13 +1,15 @@
 @import url(menu.css);
 @import url(fontello.css);
+@import url(carrusel.css);
 
 * {
     margin: 0;
     padding: 0;
+
 }
 
 header{
-    width: 80%;
+    width: 70%;
     height: 60px;
     margin-right: 10px;
     position: relative;
@@ -27,5 +29,30 @@ h1{
 .contenedor{
     width: 98%;
     margin: auto;
+}
+
+.btn{
+    position: relative;
+    width: 15%;
+    left: 80%;
+    top: 5px;
+    font-size: small;
+    border: solid 1px black;
+}
+
+#buscador{
+    position: relative;
+    width: 70%;
+    height: 85%;
+    top: 10px;
+    left: 430%;
+}
+
+.form-select{
+    position: relative;
+    width: 70%;
+    height: 85%;
+    top: 10px;
+    left: 220%;
 }
 

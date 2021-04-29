@@ -1,9 +1,11 @@
 header label{
+    position: relative;
     float: right;
-    padding-top: 10px;
-    /*font-size: ; -- dar tamaño al icono*/
+    font-size:larger ; /*-- dar tamaño al icono*/
     margin: 6px 0px;
     cursor: pointer;
+    bottom: 9px;
+    top: 2px;
     
 }
 
@@ -16,16 +18,19 @@ header label{
     background: rgb(187, 182, 182);
     transform:  translateX(-150%);
     transition: 1.5s;
+    
 }
 
 .menu a{
     color: black;
     text-decoration: none;
+    position: relative;
     display: block;
     height: 30px;
     padding: 10px;
     border-bottom: solid 1px white;
     font-size: small;
+    
 }
 
 .menu a:hover{
@@ -41,17 +46,15 @@ header label{
     display: none;
 }
 
+
+
 @media(min-width:1024px){
     .menu{
         position: static;
-        width: auto;
-        height: 25px;
+        width: 30%;
+        height: 20px;
         float: right;
         display: flex;
-        top: 10px;
-        
-        
-        
         background: white;
         transform: translateX(0%);  
         transition: none; 
@@ -61,13 +64,12 @@ header label{
     
     }
 
-    header label{
+    .icon-th-list{
         display: none;
     }
 
     .menu a{
         border-bottom: black;
     }
-
 
 }
