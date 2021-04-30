@@ -1,12 +1,13 @@
 header label{
     position: relative;
     float: right;
-    font-size:larger ; /*-- dar tamaño al icono*/
+    /*font-size; -- dar tamaño al icono*/
     margin: 6px 0px;
     cursor: pointer;
     bottom: 9px;
     top: 2px;
     
+ 
 }
 
 .menu{
@@ -17,8 +18,7 @@ header label{
     height: 100vh;
     background: rgb(187, 182, 182);
     transform:  translateX(-150%);
-    transition: 1.5s;
-    
+    transition: 1.5s;    
 }
 
 .menu a{
