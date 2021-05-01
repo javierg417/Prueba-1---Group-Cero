@@ -1,0 +1,22 @@
+#formulario-inicio{
+    position: relative;
+    height: auto;
+    width: 70%;
+    top: 60px;
+    left: 13%;
+}
+
+.mb-3{
+    position: relative;
+    top: auto;
+}
+
+.btn-primary{
+    position: relative;
+    top: auto;
+    left: auto;
+}
+
+.form-control{
+    border: solid 1px black;
+}

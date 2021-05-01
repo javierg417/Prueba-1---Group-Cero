@@ -1,9 +1,10 @@
 @import url(menu.css);
 @import url(fontello.css);
 @import url(carrusel.css);
-@import url(btniniciosesion.css);
 @import url(buscador.css);
 @import url(cajaitem.css);
+@import url(btniniciosesion.css);
+@import url(formularios.css);
 
 * {
     margin: 0;
@@ -25,8 +26,6 @@ header{
     
 }
 
-
-
 h1{
     position: relative;
     float: left;
@@ -37,7 +36,4 @@ h1{
     width: 98%;
     margin: auto;
 }
-
-
-
 
