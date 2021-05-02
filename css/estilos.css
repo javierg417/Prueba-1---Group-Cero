@@ -37,3 +37,8 @@ h1{
     margin: auto;
 }
 
+.titulo{
+    position: relative;
+    top: 30px;
+    left: 40%;
+}
