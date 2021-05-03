@@ -1,0 +1,48 @@
+@import url(menu.css);
+@import url(fontello.css);
+@import url(carrusel.css);
+@import url(buscador.css);
+@import url(cajaitem.css);
+@import url(btniniciosesion.css);
+@import url(formularios.css);
+@import url(subtitulo_gale.css);
+@import url(banner.css);
+@import url(feet_galeria_general.css);
+@import url(feet_gales.css);
+
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+header{
+    width: 70%;
+    height: 60px;
+    margin-right: 10px;
+    position: relative;
+    border-bottom: solid 1px black;
+    padding-bottom: 30px;
+    padding-left: 10px;
+    padding-top: 10px;
+    left: 12%;
+    z-index: 100;
+    
+}
+
+h1{
+    position: relative;
+    float: left;
+    right: 40px;
+}
+
+.contenedor{
+    width: 98%;
+    margin: auto;
+}
+
+.titulo{
+    position: relative;
+    top: 30px;
+    left: 40%;
+}

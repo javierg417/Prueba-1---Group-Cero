@@ -1,0 +1,17 @@
+#buscador{
+    position: fixed;
+    width: 58px;
+    height: auto;
+    top: 80px;
+    left: 60%;
+}
+
+@media(min-width:1024px){
+    #buscador{
+        position: fixed;
+        width: 10%;
+        height: auto;
+        top: 80px;
+        left: 70%;
+    }
+}

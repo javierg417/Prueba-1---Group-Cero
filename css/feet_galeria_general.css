@@ -1,0 +1,70 @@
+#feet_galeria_general {
+    position: absolute;
+    text-align: center; 
+    margin-top: 80px;
+
+
+}
+
+#feet_galeria_general .contenedor img{
+    width: 400px;
+    height: 300px;
+    margin-top: 10%;
+    border-right:  15px;
+    margin-right: 15px;
+    justify-content: center;
+    position: relative;
+}
+
+#feet_galeria_general .contenedor {
+    display: flex;
+    justify-content: center;
+    margin-top: 70px;
+    flex-wrap: wrap;
+    margin-bottom: 30px;
+
+
+}
+#feet_galeria_general .article {
+    margin: 0px;
+ 
+
+}
+#feet_galeria_general img:hover {
+    filter: opacity(0.5);
+}
+#feet_galeria_general .contenedor .h4 {
+    text-align: center;
+ 
+}
+#feet_galeria_general .contenedor_1 {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 10px;
+    margin-right: 20px;
+    margin-left: 20px;
+
+}
+#feet_galeria_general .contenedor_1 img{
+    justify-content: center;
+    position: relative;
+    margin: 30px;
+}
+#feet_galeria_general .contenedor_2 {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 10px;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+
+#feet_galeria_general .contenedor_2 img{
+    justify-content:  center;
+    position: relative;
+    margin: 10px;
+    width: 50%;
+    height: 40%;
+}
