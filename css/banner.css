@@ -1,16 +1,7 @@
-#banner img{
-    width: 0px;
-    
-}
-
 #banner .contenedor{
     position: absolute;
     top: 20%;
     left: 10%;
+    height: 10px;
     width: 50%;
-}
-
-#banner .contenedor h2{
-    font-size: 30px;
-
 }

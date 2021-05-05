@@ -1,5 +1,5 @@
 #buscador{
-    position: fixed;
+    position: absolute;
     width: 58px;
     height: auto;
     top: 80px;
@@ -8,7 +8,7 @@
 
 @media(min-width:1024px){
     #buscador{
-        position: fixed;
+        position: absolute;
         width: 10%;
         height: auto;
         top: 80px;

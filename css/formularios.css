@@ -20,3 +20,16 @@
 .form-control{
     border: solid 1px black;
 }
+
+#mensaje{
+    height: 120px;
+}
+
+.img-fluid{
+    height: 100px;
+    width: 100px;
+}
+
+#btnpublicacion{
+    float: right;
+}

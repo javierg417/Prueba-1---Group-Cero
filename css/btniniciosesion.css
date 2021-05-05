@@ -1,5 +1,5 @@
 .btn{
-    position: fixed;
+    position: relative;
     height: 34px;
     width: 17%;
     left: 80%;
@@ -10,11 +10,11 @@
 
 @media(min-width:1024px){
     .btn{
-        position: fixed;
+        position: relative;
         height: 34px;
-        width: 10%;
-        left: 85%;
-        top: 15px;
+        width: 13%;
+        left: 75%;
+        top: 8px;
         font-size: small;
         border: solid 1px black;
     }

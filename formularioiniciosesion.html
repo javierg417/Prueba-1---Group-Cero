@@ -25,13 +25,16 @@
                     <label class="icon-facebook-squared" for=""></label>
                     <nav class='menu'>
                         <a href="index.html">
-                            HOME
+                            INICIO
                         </a>
-                        <a href="">
+                        <a href="galeria.html">
                             GALERIA
                         </a>
-                        <a href="">
+                        <a href="formularioregistro.html">
                             REGISTRARSE
+                        </a>
+                        <a href="formulariocontacto.html">
+                            CONTACTO
                         </a>
                     </nav>
                     <div>
@@ -49,25 +52,30 @@
                 </section>
                 <section id="formulario-inicio">
                     <form>
-                        <div class="mb-3">
+                        <div class="mb-3" id="formu">
                             <label for="exampleInputEmail1" class="form-label">Direccion de Correo Electronico</label>
-                            <input type="email" class="form-control" id="exampleInputEmail1"
+                            <input type="email" class="form-control" id="exampleInputEmail1" id="txtCorreo"
                                 aria-describedby="emailHelp">
                         </div>
                         <div class="mb-3">
                             <label for="exampleInputPassword1" class="form-label">Contraseña</label>
-                            <input type="password" class="form-control" id="exampleInputPassword1">
+                            <input type="password" class="form-control" id="exampleInputPassword1" required
+                                minlength="5" maxlength="10">
                         </div>
                         <div class="mb-3 form-check">
                             <input type="checkbox" class="form-check-input" id="exampleCheck1">
                             <label class="form-check-label" for="exampleCheck1">Mostrar Contraseña</label>
                         </div>
-                        <button type="submit" class="btn btn-primary">Enviar</button>
+                        <div>
+                            <a href="formulariopublicacion.html"><button type="button" class="btn btn-primary"onclick="ValidarFormulario()">Enviar</button></a>
+                        </div>
                     </form>
                 </section>
             </div>
         </div>
     </main>
+    <script src="js/script.js">
+    </script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js"
         integrity="sha384-SR1sx49pcuLnqZUnnPwx6FCym0wLsk5JZuNx2bPPENzswTNFaQU1RDvt3wT4gWFG"
         crossorigin="anonymous"></script>

@@ -7,29 +7,37 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>GROUP CERO</title>
     <link rel="stylesheet" href="css/estilos.css">
+    <link rel="stylesheet" href="dist/css/lightbox.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
 </head>
 
 <body>
     <!-- Cabecera de la pagina -->
     <header>
-        <div class="contenedor">
-            <h1>GROUP CERO</h1>
-            <input type="checkbox" name="" id="menu-bar">
-            <label class="icon-th-list" for="menu-bar"></label>
-            <label class="icon-instagram" for=""></label>
-            <label class="icon-facebook-squared" for=""></label>
-            <nav class='menu'>
-                <a href="index.html">
-                    <h5>HOME</h5>
-                </a>
-                <a href="galeria.html">
-                    <h5>GALERIA</h5>
-                </a>
-                <a href="">
-                    <h5>REGISTRARSE</h5>
-                </a>
+        <div class="container-fluid">
+            <div class="contenedor">
+                <h1 class="icon-art-gallery">GROUP CERO </h1>
+                <input type="checkbox" name="" id="menu-bar">
+                <label class="icon-th-list" for="menu-bar"></label>
+                <label class="icon-instagram" for=""></label>
+                <label class="icon-facebook-squared" for=""></label>
+                <nav class='menu'>
+                    <a href="index.html">
+                        INICIO
+                    </a>
+                    <a href="galeria.html">
+                        GALERIA
+                    </a>
+                    <a href="formularioregistro.html">
+                        REGISTRARSE
+                    </a>
+                    <a href="formulariocontacto.html">
+                        CONTACTO
+                    </a>
 
-            </nav>
+                </nav>
+            </div>
         </div>
     </header>
     <main>
@@ -45,28 +53,37 @@
         </section>
 
         <section id="feet_galeria_general">
-            <div class="contenedor">
-                <article>   
+            <div class="contenedor_2">
+                <article>
+                    <div>
+                        <a href="ima/orfebreria1.jpg" data-lightbox="orfebre"
+                            data-title="Los anillos de Snorri Sturluson | Anillos en Oro blanco y Ocre dorado. | Agustin Ocampo">
 
-
-                    
+                            <img src="ima/orfebreria1.jpg">
+                        </a>
+                    </div>
                 </article>
-                <article>   
+                <article>
+                    <div>
+                        <a href="ima/orfebreria2.jpg" data-lightbox="orfebre"
+                            data-title="Pulseras de Ariadna | Pulseras de plata antigua y perlas escarlatas al bronce| León Días">
 
 
-                    
+                            <img src="ima/orfebreria2.jpg">
+                        </a>
+                    </div>
+
                 </article>
-                <article>   
+                <article>
+                    <div>
+                        <a href="ima/orfebreria3.jpg" data-lightbox="orfebre"
+                            data-title="La planta metálica | Jonas Espedito | Piedra Rosarina lisa y Cobre">
 
-                    
+                            <img src="ima/orfebreria3.jpg" alt="">
+                        </a>
+                    </div>
                 </article>
-                <article>   
 
-                    
-                </article>
-
-
-                
             </div>
 
         </section>
@@ -74,10 +91,15 @@
 
 
     </main>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js"
+        integrity="sha384-SR1sx49pcuLnqZUnnPwx6FCym0wLsk5JZuNx2bPPENzswTNFaQU1RDvt3wT4gWFG"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.min.js"
+        integrity="sha384-j0CNLUeiqtyaRmlzUHCPZ+Gy5fQu0dQ6eZ/xAww941Ai1SxSY+0EQqNXNE6DZiVc"
+        crossorigin="anonymous"></script>
 
 
-
-
+    <script src="dist/js/lightbox-plus-jquery.js"></script>
 </body>
 
 </html>

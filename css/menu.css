@@ -6,8 +6,6 @@ header label{
     cursor: pointer;
     bottom: 9px;
     top: 2px;
-    
- 
 }
 
 .menu{
@@ -18,7 +16,8 @@ header label{
     height: 100vh;
     background: rgb(187, 182, 182);
     transform:  translateX(-150%);
-    transition: 1.5s;   
+    transition: 1.5s;  
+
 }
 
 .menu a{
@@ -30,7 +29,6 @@ header label{
     padding: 10px;
     border-bottom: solid 1px white;
     font-size: small;
-    right: 30%;
     
 }
 
@@ -70,7 +68,9 @@ header label{
     }
 
     .menu a{
+        position: ;
         border-bottom: black;
+        right: 15%;
     }
 
 }
