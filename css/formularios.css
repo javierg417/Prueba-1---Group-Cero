@@ -21,7 +21,7 @@
     border: solid 1px black;
 }
 
-#mensaje{
+#txtmensaje{
     height: 120px;
 }
 
@@ -32,4 +32,12 @@
 
 #btnpublicacion{
     float: right;
+    top: 30px;
 }
+
+#formFile{
+    position: absolute;
+    width: 50%;
+}
+
+

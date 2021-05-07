@@ -47,7 +47,7 @@
 #feet_galeria_general .contenedor_1 img{
     justify-content: center;
     position: relative;
-    margin: 30px;
+    margin: 100px;
 }
 #feet_galeria_general .contenedor_2 {
     display: flex;
@@ -66,3 +66,5 @@
     width: 50%;
     height: 40%;
 }
+
+

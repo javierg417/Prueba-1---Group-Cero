@@ -1,17 +1,17 @@
-.dropdown{
+#dropdownMenuButton1{
     position: absolute;
-    width: 110%;
-    height: 50%;
-    top: 62px;
-    left: -55%;
+    width: 120px;
+    height: auto;
+    top: 16px;
+    left: -50%;
 }
 
 @media(min-width:1024px){
-    .dropdown{
+    #dropdownMenuButton1{
         position: absolute;
-        width: 100%;
-        height: 40%;
-        top: 70px;
-        left: -20%;
+        width: 120px;
+        height: auto;
+        top: 16px;
+        left: 10%;
     }
 }
