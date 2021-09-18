@@ -1,0 +1,45 @@
+<ion-header>
+  <app-head></app-head>
+</ion-header>
+
+<ion-content color="light">
+  <ion-grid>
+    <ion-row>
+      <ion-col>
+        <ion-card class="ion-margin-top">
+          <ion-card-header color="warning">
+            <ion-card-title class="ion-text-center">
+              Inicio Sesión
+            </ion-card-title>
+          </ion-card-header>
+          <ion-card-content>
+            <ion-item class="ion-margin-top" slot="start">
+              <ion-label position="floating">Ingrese nombre de usuario</ion-label>
+              <ion-input type="text"></ion-input>
+            </ion-item>
+            <ion-item class="ion-margin-top ion-margin-bottom" slot="start">
+              <ion-label position="floating">Ingrese Contraseña</ion-label>
+              <ion-input type="password"></ion-input>
+            </ion-item>
+          </ion-card-content>
+        </ion-card>
+      </ion-col>
+    </ion-row>
+  </ion-grid>
+
+  <div class="centrado">
+    <ion-button color="secondary" class="ion-margin" [routerLink]="['/principal']">
+      Ingresar
+    </ion-button>
+    <ion-grid>
+      <ion-row>
+        <ion-col [routerLink]="['/recuperar']">
+          <a class="underline" style="color: black;">Olvidé mi contraseña</a>
+        </ion-col>
+      </ion-row>
+    </ion-grid>
+  </div>
+
+</ion-content>
+
+<app-foot></app-foot>
